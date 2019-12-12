@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="viewwerXF.Views.TabFiltre"
+             Title="Rechercher">
+    <ContentPage.Content>
+        
+        <Grid BackgroundColor="{StaticResource SecondaryTextColor}" ColumnSpacing="0" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*" />
+                <RowDefinition Height="90*" />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout BackgroundColor="AliceBlue"  Grid.Column="0" Grid.Row="0">
+                <Button Text="Filtrer" HorizontalOptions="Center"  WidthRequest="200"
+                BorderColor="Beige" />
+            </StackLayout>
+
+            <ScrollView Grid.Column="0" Grid.Row="1">
+                <ListView ItemsSource="{Binding Items}" RowHeight="200" ><!--ItemTapped ="onItemSelected"-->
+                    <!--<ListView x:Name="Items">-->
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                    <!--<Image HeightRequest="100" >
+                                        <Image.Source>
+                                            <UriImageSource Uri="{Binding ProductImage}" />
+                                        </Image.Source>
+                                    </Image>-->
+                                    <Image Source="logo.png">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer
+                                                    Tapped="onClickImage"
+                                                    NumberOfTapsRequired="1" />         
+                                        </Image.GestureRecognizers>
+
+                                        <!--<Image Source="logo.png" x:Name="imageAnnonces" HeightRequest="120" WidthRequest="50" Aspect="AspectFill">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="Image" NumberOfTapsRequired="1"/>
+                                        </Image.GestureRecognizers>-->
+                                    </Image>
+
+                                    <Label  HorizontalOptions="Start" Margin="10"
+                                           Text="{Binding Name}"
+                               FontAttributes="Bold"/>
+                                    <StackLayout Orientation="Horizontal" HeightRequest="20">
+                                        <Image Source="like.png" HorizontalOptions="FillAndExpand" />
+                                        <Image Source="favorites.png" HorizontalOptions="FillAndExpand" />
+
+                                        <Image Source="share.png" HorizontalOptions="FillAndExpand"/>
+                                        <Label Text="Partager" HorizontalOptions="FillAndExpand" />
+                                    </StackLayout>
+                                    
+                                </StackLayout>
+                                
+            
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

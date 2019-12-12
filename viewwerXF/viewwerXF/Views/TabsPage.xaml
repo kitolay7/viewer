@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:views="clr-namespace:viewwerXF.Views"
+             x:Class="viewwerXF.Views.TabsPage">
+    <NavigationPage.TitleView>
+        <Label Text="Toutes les annonces"
+               HorizontalOptions="Center" 
+               TextColor="{StaticResource SecondaryTextColor}"             
+               />
+    </NavigationPage.TitleView>
+
+    <views:TabFiltre Icon="search.png" />
+    <views:TabFavoris Icon="favorites.png" />
+    <views:TabCreate Icon="add.png" />
+    <views:TabMessage Icon="Message.png" />
+    <views:TabProfil Icon="Profil.png" />
+    
+</TabbedPage>

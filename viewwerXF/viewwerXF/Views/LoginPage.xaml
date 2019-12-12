@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="viewwerXF.Views.LoginPage">
+
+    <!--<Grid>
+        <Image  x:Name="MyImage" />
+    </Grid>-->
+    <ContentPage.Content>
+      
+        <StackLayout 
+                    Spacing="20"
+                    Padding="10"
+                    VerticalOptions="CenterAndExpand">
+          
+            <Image WidthRequest="300"
+               HeightRequest="54"
+               Aspect="AspectFit"
+               Source="logo.png" />
+            <Entry Placeholder="Adresse email"
+                    PlaceholderColor="{StaticResource viColor}"
+                    TextColor="{StaticResource viColor}" 
+                   x:Name="txtEmail"
+                   Text="{Binding Email}" FlowDirection="MatchParent"/>
+            <Entry Placeholder="Mot de passe"
+                   x:Name="txtPassword"
+                   Text="{Binding Password}"
+                    PlaceholderColor="{StaticResource viColor}"
+                    TextColor="{StaticResource viColor}" 
+                    IsPassword="True"  />
+            <!--CommandParameter="{x:Type local:MainPage}"-->
+            <Button Text="Se connecter"
+                    Command="{Binding LoginCommand}"
+                    BackgroundColor="{StaticResource viColor}"
+                    HorizontalOptions="FillAndExpand" 
+                    />
+            <Button Text="Creer un compte"
+                    Command="{Binding SubscribeCommand}"
+                        BackgroundColor="{StaticResource viColor}"
+                        HorizontalOptions="FillAndExpand" 
+                    />
+            <Button Text="Se connecter avec Facebook"
+                        BackgroundColor="{StaticResource facebookColor}"
+                        HorizontalOptions="FillAndExpand" />
+            <Button Text="Se connecter avec Google"
+                        BackgroundColor="{StaticResource googleColor}"
+                        HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

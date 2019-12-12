@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="viewwerXF.App">
+    <Application.Resources>
+        <Color x:Key="SecondaryColor">#FFB900</Color>
+        <Color x:Key="TertiaryColor">#00A4EF</Color>
+        <Color x:Key="QuaternaryColor">#7FBA00</Color>
+        <Color x:Key="QuinaryColor">#F25022</Color>
+
+        <Color x:Key="TextColor">#1d1d1d</Color>
+        <Color x:Key="SecondaryTextColor">#ffffff</Color>
+        <Color x:Key="googleColor">#d44534</Color>
+        <Color x:Key="facebookColor">#486cb0</Color>
+        <Color x:Key="viColor">#16c6ca</Color>
+    </Application.Resources>
+</Application>

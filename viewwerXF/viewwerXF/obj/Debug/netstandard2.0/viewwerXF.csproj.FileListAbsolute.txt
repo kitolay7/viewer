@@ -1,0 +1,43 @@
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\bin\Debug\netstandard2.0\viewwerXF.deps.json
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\bin\Debug\netstandard2.0\viewwerXF.dll
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\ListViewPage1.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabCreate.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabFavoris.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabFiltre.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabMessage.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabProfil.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabsPage.xaml.g.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.AssemblyInfoInputs.cache
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.AssemblyInfo.cs
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\bin\Debug\netstandard2.0\ref\viewwerXF.dll
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\bin\Debug\netstandard2.0\viewwerXF.pdb
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.dll
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\ref\viewwerXF.dll
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.pdb
+D:\Isaha\viewwer-mobile-xf\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.csprojAssemblyReference.cache
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\bin\Debug\netstandard2.0\viewwerXF.deps.json
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\bin\Debug\netstandard2.0\viewwerXF.dll
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\bin\Debug\netstandard2.0\ref\viewwerXF.dll
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\bin\Debug\netstandard2.0\viewwerXF.pdb
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\ListePage.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\ListViewPage1.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabCreate.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabFavoris.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabFiltre.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabMessage.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabProfil.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\Views\TabsPage.xaml.g.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.AssemblyInfoInputs.cache
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.AssemblyInfo.cs
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.dll
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\ref\viewwerXF.dll
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.pdb
+C:\Users\PRISCILLA\Downloads\viewwerXF 2(1)\viewwerXF\viewwerXF\viewwerXF\obj\Debug\netstandard2.0\viewwerXF.csprojAssemblyReference.cache

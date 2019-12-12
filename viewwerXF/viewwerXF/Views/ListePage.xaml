@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="viewwerXF.Views.ListePage">
+
+    <NavigationPage.TitleView>
+        <Label Text="Toutes les annonces"
+               HorizontalOptions="Start" 
+               TextColor="{StaticResource SecondaryTextColor}"             
+               />
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <Grid ColumnSpacing="0" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="12*" />
+                <RowDefinition Height="70*" />
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout  Grid.Column="0" Grid.Row="0" Margin="10,0,0,0">
+
+                <Label Text="GROUPE GAMBETTA" FontSize="Title" TextColor="#0D0D0D" />
+                
+                <TableView
+               HasUnevenRows="true">
+                    <TableRoot>
+                        <TableSection>
+                            <ViewCell x:Name="_viewCell">
+                                <Grid Margin="15,0,0,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Text="LOT" Grid.Row="0" Grid.Column="0" />
+                                    <Label x:Name="_target46"
+                                            Grid.Row="0" Grid.Column="1"
+                                            Text="TYPE"
+                                    />
+                                    <Label x:Name="_target5"
+                                            Grid.Row="0" Grid.Column="2"
+                                            Text="SUPERFICIE"
+                                    />
+                                    <Label x:Name="_target4"
+                                            Grid.Row="0" Grid.Column="3"
+                                            Text="TERASSE"
+                                    />
+
+                                    <Label Text="Lot 421" Grid.Row="1" Grid.Column="0"  TextColor="{StaticResource viColor}" />
+                                    
+                                    <Label x:Name="_target3"
+                                            Grid.Row="1" Grid.Column="1"
+                                            Text="App .T3"
+                                            TextColor="{StaticResource viColor}" 
+                                    />
+                                    <Label x:Name="_target2"
+                                            Grid.Row="1" Grid.Column="2"
+                                            Text="107.2 m2"
+                                            TextColor="{StaticResource viColor}" 
+                                    />
+                                    <Label x:Name="_target1"
+                                            Grid.Row="1" Grid.Column="3"
+                                            Text=""
+                                    />
+                                    
+                                </Grid>
+                            </ViewCell>
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+                <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="0">
+                    <Label Text="Programme :"  />
+                    <Label Text="HORIZON MARLY" />
+                </StackLayout>
+            </StackLayout>
+
+            <ScrollView Grid.Column="0" Grid.Row="1">
+                <ListView ItemsSource="{Binding Items}" RowHeight="200" >
+                    <!--ItemTapped ="onItemSelected"-->
+                    <!--<ListView x:Name="Items">-->
+
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                    <!--<Image HeightRequest="100" >
+                                        <Image.Source>
+                                            <UriImageSource Uri="{Binding ProductImage}" />
+                                        </Image.Source>
+                                    </Image>-->
+                                    <Image Source="logo.png">
+                                 
+
+                                        <!--<Image Source="logo.png" x:Name="imageAnnonces" HeightRequest="120" WidthRequest="50" Aspect="AspectFill">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding TapCommand}" CommandParameter="Image" NumberOfTapsRequired="1"/>
+                                        </Image.GestureRecognizers>-->
+                                    </Image>
+
+                                    <Label  HorizontalOptions="Start" Margin="10"
+                                           Text="{Binding Name}"
+                               FontAttributes="Bold"/>
+                                    <StackLayout Orientation="Horizontal" HeightRequest="20">
+                                        <Image Source="like.png" HorizontalOptions="FillAndExpand" />
+                                        <Image Source="favorites.png" HorizontalOptions="FillAndExpand" />
+
+                                        <Image Source="share.png" HorizontalOptions="FillAndExpand"/>
+                                        <Label Text="Partager" HorizontalOptions="FillAndExpand" />
+                                    </StackLayout>
+
+                                </StackLayout>
+
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
